@@ -55,6 +55,7 @@ namespace OOP_4Hafta
 
         void Temizle()
         {
+            bs = new BindingSource(); // Binding Source Sıfırlama ++
             dataGridView1.DataSource = bs;
         }
         void Insert()
